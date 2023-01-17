@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.page_top {
+	padding-top: 40px;
+}
+
+.menu {
+	margin-bottom: 84px;
+}
+
+.page_top_content {
+	margin-bottom: 162px;
+}
+
+.page_top_title {
+	padding-bottom: 17px;
+}
+
+.page_top_text {
+	padding-bottom: 37px;
+}
+
+.page_top_brands {
+	padding: 97px 0;
+}
