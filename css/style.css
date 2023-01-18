@@ -7,26 +7,102 @@ a {
 	text-decoration: none;
 }
 
+.center {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1170px;
+}
+
 .page_top {
 	padding-top: 40px;
 }
 
 .menu {
 	margin-bottom: 84px;
+	display: flex;
+	justify-content: space-between
+}
+
+.menu_list {
+	list-style-type: none;
+	width: 100%;
+	max-width: 533px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu_item_list {
+	font-family: 'Gilroy-Medium';
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+}
+
+.menu_home {
+	font-family: 'Gilroy-SemiBold';
+	color: #F25822;
 }
 
 .page_top_content {
 	margin-bottom: 162px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.page_top_main {
+	width: 522px;
 }
 
 .page_top_title {
 	margin-bottom: 17px;
+	font-family: 'Gilroy-Bold';
+	font-size: 60px;
+	line-height: 70px;
+	color: #000000;
 }
 
 .page_top_text {
 	margin-bottom: 37px;
+	font-family: 'Gilroy-Medium';
+	font-size: 20px;
+	line-height: 23px;
+	color: #888888;
+}
+
+.page_top_wrp_btn {
+	display: flex;
+	gap: 63px;
+}
+
+.btn {
+	padding: 16px 36px;
+	background: #F25822;
+	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+	border-radius: 50px;
+	border: none;
+	font-family: 'Gilroy-Bold';
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFF;
+}
+
+.btn_video {
+	font-family: 'Gilroy-Bold';
+	font-size: 15px;
+	line-height: 18px;
+	color: #AAAAAA;
+	border: none;
+	background-color: #FFF;
 }
 
 .page_top_brands {
 	padding: 97px 0;
+
+}
+
+.brands_list {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
 }
